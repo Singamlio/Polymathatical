@@ -1,0 +1,45 @@
+#title{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    background-color: black;
+    padding: 50px;
+    
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.fade-in-image {
+    animation: fadeIn 3s;
+    border-radius: 10px;
+    width : auto 45%;
+    height: auto 45%;
+    padding-right: 25px;
+    padding-left: 10px;
+
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100px;
+    padding-top: 10px;
+    background-color: gray
+    
+}
+/* Fix problem with window resizing */
+#description {
+    padding-right: 25px;
+}
+/* Add more stuff here */
+#description-title{
+    font-size: 30px;
+    color: White;
+    background-color: rgb(41, 40, 40);
+    text-align: right;
+    padding-right: 10px;
+
+}
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
