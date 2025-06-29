@@ -18,15 +18,15 @@ hr {
 }
 
 #aboutus {
-    width: 150px;
-    border-radius: 10px;
+    
+    padding: 10px 20px;
     background-color: rgb(41, 40, 40);
     color: white;
+    text-decoration: none;
+    border-radius: 5px;
     font-size: clamp(16px, 2vw, 20px);
-    margin-bottom: 30px;
-    margin-right: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    transition: 0.5s ease-in-out;
+    float: right;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
 
 }
 
@@ -43,6 +43,7 @@ hr {
     text-align: center;
     background-color: black;
     padding: 20px 50px;
+    
 }
 
 /* Container Layout */
