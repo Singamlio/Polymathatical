@@ -104,6 +104,15 @@ hr {
     text-align: right;
     padding: 10px;
 }
+#abouttitle {
+     font-size: clamp(24px, 3vw, 30px);
+    background-color: rgb(41, 40, 40);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
 
 #description {
     padding: 10px;
